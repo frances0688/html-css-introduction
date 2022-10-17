@@ -1,0 +1,38 @@
+/* CSS is structured as selector and, in curly brackets, a declaration. */
+
+/* Structure:
+selector {
+    property: value;
+    property: value
+} */
+
+/* Selectors: */
+
+/* Universal selector */
+* {
+    color: grey;
+}
+
+/* Type selector. Selects the element by html tag.  You can select multiple elements. */
+div {
+    background-color: darkgreen;
+}
+
+/* class selector */
+.selected {
+    color: crimson;
+    background-color: bisque;
+}
+
+/* id selector */
+#selected-id {
+    border: 3px solid green;
+}
+
+/* specificity: id > class > type > universal selector */
+
+
+table {
+    background-color: rgba(136, 167, 118, 0.25);
+    border: 3px solid rgb(136, 167, 118);
+}

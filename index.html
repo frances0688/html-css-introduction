@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HTML CSS Introduction</title>
+</head>
+<body>
+    <!--This is a comment: Command + / -->
+
+    <!-- Structuring elements -->
+    <!-- Semantic elements -->
+    <!-- All of these semantic elements are block elements. -->
+    <header id="top">This is a header</header>
+
+    <nav class="selected">This is a navigation</nav>
+
+    <section id="selected-id">This is a section. It is a container for other elements.
+        <header>This is the header of the section</header>
+        <p>This is a paragraph with awesome content</p>
+    </section>
+
+    <article class="selected">This is an article. It is a container for content</article>
+
+    <footer>This is the footer of the page.</footer>
+
+    <!-- Generic elements -->
+
+    <div>This is a div. <br> It is usually a container for other elemets.
+        <span>This is a span.  It's an inline element.</span>
+        <span>This is also a span.</span>
+        <span>Another span</span>
+    </div>
+
+    <br>
+    <hr>
+
+    <!-- Content elements -->
+    <h1>This is a heading</h1>
+    <h2>This is heading 2</h2>
+    <h3>Heading 3</h3>
+    <h6>Heading 6</h6>
+
+    <p>This is a paragraph.  It is a block element.  It is used </p>
+    <img src="https://images.unsplash.com/photo-1665875807836-f8978a048aa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" alt="ghosts chillin">
+    <img src="Broken" alt="Ghosts chillin'">
+
+    <a href="https://www.ironhack.com">Visit Ironhack!</a>
+    <a target="_blank" href="#top">Go to the top of the page</a>
+
+    <!-- This is an unordered list.  Block element where the order of the elements is not relevant. -->
+    <h3>Shopping list:</h3>
+    <ul>
+        <li>Bread</li>
+        <li>Cheese</li>
+        <li>Ham</li>
+        <li>Milk</li>
+    </ul>
+
+    <!-- This is an ordered list. Block element where the order of the elements matters -->
+    <h3>Recipe:</h3>
+    <ol>
+        <li>Heat over to 220</li>
+        <li>Cut veggies</li>
+        <li>Combine in pan</li>
+    </ol>
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Matias</th>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <th>Antonio</th>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <th>Marco</th>
+                <td>Germany</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <form action="">
+        <label for="message">Please enter your message:</label>
+        <input placeholder="Enter message" id="message" type="text">
+        <button>Submit message</button>
+    </form>
+
+    <!-- Formatting elements -->
+    <p>This paragraph will contain inline elements.
+        This is an <em>emphasized</em> text.  This is text of <strong>strong</strong> importance.
+        <i>This is italic text.</i>
+    </p>
+
+</body>
+</html>
